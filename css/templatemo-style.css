@@ -295,16 +295,20 @@ header .social-icon li a
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 		position: relative;
+		padding-top: 10px;
 	}
 #team .team-wrapper:hover
 	{
 		cursor: pointer;
-		opacity: 0.4;
-		bottom: 4px;
+		opacity: 0.9;
+		bottom: 6px;
 	}
 #team .team-wrapper .team-des
 	{
 		padding: 20px;
+		    word-wrap: break-word;
+		padding-top: 10px;
+
 	}
 #team .team-wrapper .team-des span
 	{
@@ -363,23 +367,25 @@ header .social-icon li a
 	.portfolio-thumb, 
 	.portfolio-overlay {
 		max-width: 450px;
+		
 	}
 #portfolio .portfolio-thumb
 	{
 		overflow: hidden;
 		padding: 0;
 		margin: 0 auto;
+		padding-top: 15px;
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: #505050;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;	
 		width: 100%;
 		height: 100%;
-		opacity: 0;
+		opacity: .3;
 		position: absolute;
 		padding: 20px 10px 20px 20px;
 		margin-left: auto;
@@ -391,6 +397,7 @@ header .social-icon li a
 	{
 		font-weight: bold;
 		padding-bottom: 10px;
+		opacity: 100;
 	}
 #portfolio .portfolio-thumb .portfolio-overlay .btn
 	{
@@ -405,6 +412,7 @@ header .social-icon li a
 		cursor: pointer;
 		opacity: 0.8;
 	}
+
 /* end portfolio */
 
 /* start contact */
@@ -658,4 +666,10 @@ img {
 .banner ul li { 
 	float: left; 
 }
-            
+
+.logoFull {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 60px;
+	width: 100px;
+}

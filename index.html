@@ -7,11 +7,11 @@
 		<meta name="description" content="">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/favicon.png">
 
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/templatemo-style.css">
 		<script src="js/jquery.js"></script>
@@ -20,20 +20,6 @@
 		<script src="js/typed.js"></script>
 		<script src="js/wow.min.js"></script>
 		<script src="js/custom.js"></script>
-		<script src="unslider-master/src/js/unslider.js"></script>
-		
-		<script>
-		jQuery(document).ready(function($) {
-			$('.banner').unslider({
-				speed: 500,               //  The speed to animate each slide (in milliseconds)
-    			delay: 2500,              //  The delay between slide animations (in milliseconds)
-    			complete: function() {},  //  A function that gets called after every slide animation
-    			keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-    			dots: true,               //  Display dot navigation
-    			});
-			
-				});
-		</script>
 	</head>
 	<body id="top">
 
@@ -58,7 +44,7 @@
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-					<a href="#top" class="navbar-brand">The Opportunities Club</a>
+					<a href="#top" class="navbar-left"><img class="logoFull" src="images/fullLogo.jpeg"></a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -74,15 +60,46 @@
 		</nav>
 		<!-- end navigation -->
 
-    	<!-- start home -->	
+    	<!-- start home(carousel) -->	
     	<section id="home">
-			<div class="banner">
-                <ul>
-                    <li><img src="images/picture1.jpg"></li>    
-                    <li><img src="images/picture2.jpg"></li>
-                    
-                </ul>
-            </div>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="#" alt="...">
+    </div>
+
+    <div class="item">
+      <img src="#" alt="...">
+    </div>
+
+    <div class="item">
+      <img src="#" alt="...">
+    </div>
+
+    <div class="item">
+      <img src="#" alt="...">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="fa fa-angle-right" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="fa fa-angle-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     	</section> 
     	<!-- end home -->
 
@@ -98,10 +115,9 @@
                         <div class="portfolio-thumb">
     					   <img src="images/water_conserve.jpeg" class="img-responsive" alt="portfolio img 1">
                                 <div class="portfolio-overlay">
-                                    <h4>Website Development</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    
-								
+									
+                                    <h4 >Water Conservation Solutions</h4>
+                                    <p>Build a device for separating clean and grey water for reuse.</p>
                                 </div>
                         </div>
     				</div>
@@ -109,20 +125,41 @@
                         <div class="portfolio-thumb">
                            <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
                                 <div class="portfolio-overlay">
-                                    <h4>Project Two</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                    <h4>Reduce Errors in Pharmacies</h4>
+                                    <p>Build a device for automating the process to reduce erros. Mentors with IOT or embedded experience.
+</p>
+                                    
 									
                                 </div>
                         </div>
                     </div>
                     <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
+                           <img src="images/graffiti.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Reduce Grafitti</h4>
+                                    <p>Build a technical solution with IOT, Drones to reduce grafitti.</p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/traffic.jpeg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Traffic study for public transport and car pool solutions</h4>
+                                    <p>Build a smart City solution for improving traffic</p>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
                            <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
                                 <div class="portfolio-overlay">
-                                    <h4>Project Three</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                    <h4>E-Physiotherapy</h4>
+                                    <p>This is an advanced prototype building project. mentors with IOT, sensors, mechanical engineering background preferred.</p>
+                                    
                                 </div>
                         </div>
                     </div>
@@ -130,59 +167,10 @@
                         <div class="portfolio-thumb">
                            <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
                                 <div class="portfolio-overlay">
-                                    <h4>Project Four</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                        <div class="portfolio-thumb">
-                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
-                                <div class="portfolio-overlay">
-                                    <h4>Project Five</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                        <div class="portfolio-thumb">
-                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
-                                <div class="portfolio-overlay">
-                                    <h4>Project Six</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                        <div class="portfolio-thumb">
-                           <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
-                                <div class="portfolio-overlay">
-                                    <h4>Project Seven</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                        <div class="portfolio-thumb">
-                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
-                                <div class="portfolio-overlay">
-                                    <h4>Project Eight</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
-                                </div>
-                        </div>
-                    </div>
-					<div class="col-sm-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                        <div class="portfolio-thumb">
-                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
-                                <div class="portfolio-overlay">
-                                    <h4>Project Eight</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                    <h4>Intergenerational Connection</h4>
+                                    <p>Design and implement a multi-generational interraction program for the San Jose City.
+Mentors with Project design, program management back ground are preferred.</p>
+                                    
                                 </div>
                         </div>
                     </div>
@@ -192,112 +180,75 @@
 		<!-- end about -->
 
     	<!-- start volunteering -->
-    	<!-- <section id="team">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-12">
-    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> TEAM</h2>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img1.jpg" class="img-responsive" alt="team img 1">
-    							<div class="team-des">
-    								<h4>TRACY</h4>
-    								<span>Designer</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
-    							<div class="team-des">
-    								<h4>MARY</h4>
-    								<span>Developer</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
-    							<div class="team-des">
-    								<h4>JULIA</h4>
-    								<span>Director</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
-    							<div class="team-des">
-    								<h4>LINDA</h4>
-    								<span>Manager</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</section> -->
 		<section id="volunteering">
-		<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Volunteering</h2>
+		<h2>Volunteering</h2>
 		<h3>To be Announced </h3>
 		</section>
     	<!-- end volunteering -->
 
     	<!-- start Internships -->
-    	<section id="portfolio">
+    	<section id="team">
     		<div class="container">
     			<div class="row">
     				<div class="col-md-12">
-    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"> Internships</h2>
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Internships</h2>
     				</div>
-    				<div class="container">
-    			
-					 <div class="row">
-						<div class="col-md-8 text-md-left">
-						<h4>Website Development | June-July</h4>
-							<p >There are multiple commercial website development opportunities. These projects require confidentiality agreement. All rights for the work belong to the companies.
-Details of the projects will be shared after signing up.</p>
-						 </div> 
-					</div>
-						<div class="row">
-						<div class="col-md-8 ">
-						<h4>Software Development | June-July</h4>
-							<p >There are multiple commercial website development opportunities. These projects require confidentiality agreement. All rights for the work belong to the companies.
-Details of the projects will be shared after signing up.</p>
-						 </div> 
-					</div>
-						<div class="row">
-						<div class="col-md-8 ">
-						<h4>Business Development | June-July</h4>
-							<p >There are multiple commercial website development opportunities. These projects require confidentiality agreement. All rights for the work belong to the companies.
-Details of the projects will be shared after signing up.</p>
-						 </div> 
-					</div>
-						<div class="row">
-						<div class="col-md-8 ">
-						<h4>Elevate [Math] @ Silicon Valley Educational Foundation | June-July</h4>
-							<p >There are multiple commercial website development opportunities. These projects require confidentiality agreement. All rights for the work belong to the companies.
-Details of the projects will be shared after signing up.</p>
-						 </div> 
-					</div>
-						<div class="row">
-						<div class="col-md-8 ">
-						<h4>Science Gurus - Cancer drug discovery and development | June-July</h4>
-							<p >There are multiple commercial website development opportunities. These projects require confidentiality agreement. All rights for the work belong to the companies.
-Details of the projects will be shared after signing up.</p>
-						 </div> 
-					</div>
-    			
-    		</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4>Website Development</h4>
+    								<span>June-July 2016</span>
+    								<p>There are multiple commercial website development opportunities. These projects require confidentiality agreement. All rights for the work belong to the companies. Details of the projects will be shared after signing up.</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4>Software Development</h4>
+    								<span>June-July 2016</span>
+    								<p>There are multiple software development opportunities. These projects require confidentiality agreement. All rights belong to the companies.
+Details of the project will be shared after signing up.</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4>Business Development</h4>
+    								<span>June-July 2016</span>
+    								<p>One project opportunity.
+The project involves social marketing and customer acquisition strategy and implementation.
+Confidentiality agreement is required.
+Mentor with marketing experience is preferred.</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4>Elevate [Math] @ Silicon Valley Educational Foundation</h4>
+    								<span>June-July 2016</span>
+    								<p>2 opportunities. Please send your resume to info@TheOpClub.com</p>
+    							</div>
 						</div>
-    			
+    				</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4>Science Gurus - Cancer drug discovery and development </h4>
+    								<span>June-July 2016</span>
+    								<p>Directly apply at http://www.sciencegurus.org/internshipAbout.htm</p>
+    							</div>
+						
+    					</div>
+				</div>
+    			</div>
     		</div>
     	</section>
-    	<!-- end portfolio -->
+    	<!-- end Internships -->
+		
 		<!-- Start FAQ-->
 		<section id="faqs">
 		<div class="col-md-12">
@@ -385,8 +336,7 @@ Details of the projects will be shared after signing up.</p>
         </div>
 			</div>
 			</div>
-		</section>
-				
+		</section>		
 		<!-- End FAQ-->
 
     	<!-- start contact -->
@@ -435,8 +385,14 @@ Details of the projects will be shared after signing up.</p>
                     <div class="col-md-12 text-center">
                         <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
                        	Copyright &copy; 2016 The Opportunites Club</p>
+					
                     </div>
                 </div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p class="wow bounceIn" data-wow-offset="50" data wow-delay="0.3s">Made   by the Fremont Team.</p>
+					</div>
+				</div>
             </div>
         </footer>
         <!-- end copyright -->
