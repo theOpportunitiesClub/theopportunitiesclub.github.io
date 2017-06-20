@@ -45,7 +45,7 @@ h4{
 		display: block;
 }
 
-#projects, #about, #internships,
+#projects, #about, #classes,
 #faqs, #contact
 	{
 		padding-top: 60px;
@@ -178,8 +178,8 @@ h4{
 }
 /* end home */
 
-/* start internships */
-#internships .internships-wrapper
+/* start classes */
+#classes .classes-wrapper
 	{
 		background: #404040;
 		padding-bottom: 10px;
@@ -188,27 +188,27 @@ h4{
 		position: relative;
 		padding-top: 10px;
 	}
-#internships .internships-wrapper:hover
+#classes .classes-wrapper:hover
 	{
 		cursor: pointer;
 		opacity: 0.9;
 		bottom: 6px;
 	}
-#internships .internships-wrapper .internships-des
+#classes .classes-wrapper .classes-des
 	{
 		padding: 20px;
 		    word-wrap: break-word;
 		padding-top: 10px;
 
 	}
-#internships .internships-wrapper .internships-des span
+#classes .classes-wrapper .classes-des span
 	{
 		color: #1FA033;
 		display: block;
 		font-weight: bold;
 		padding-bottom: 12px;
 	}
-/* end internships */
+/* end classes */
 
 /* start about */
 #about 
@@ -436,7 +436,7 @@ h4{
 
 /* start 980 media quires */
 @media only screen and ( max-width: 980px ) {
-	#internships .internships-wrapper
+	#classes .classes-wrapper
 		{
 			margin-top: 40px;
 		}
