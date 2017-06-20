@@ -45,7 +45,7 @@ h4{
 		display: block;
 }
 
-#projects, #volunteering, #internships,
+#projects, #about, #internships,
 #faqs, #contact
 	{
 		padding-top: 60px;
@@ -210,10 +210,55 @@ h4{
 	}
 /* end internships */
 
+/* start about */
+#about 
+	{
+		padding-bottom: 80px;
+		background-color: #303030;
+
+	}
+
+#about p
+	{
+		text-align: center;
+		padding: 0px 80px 0px 80px;
+		font-size: 150%;
+	}
+
+#about p #p-button
+	{
+		text-align: center;
+	}
+
+#about button
+	{
+		align-self: center;
+		height: 50px;
+		width: 400px;
+		background: #1FA033;
+		font-weight: bold;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+		border: 1px solid #1FA033;
+		border-radius: 2px;
+		box-shadow: none;
+		color: #fff;
+		margin-top: 6px;
+		margin-bottom: 16px;
+	}
+
+#about button:hover 
+	{
+		background: transparent;
+	}
+
+/* end about */
+
 /* start projects */
 #projects
 	{
 		padding-bottom: 80px;
+		background-color: #404040;
 	}
 #projects .col-md-3
 	{
