@@ -236,7 +236,7 @@ h4{
 #about .col-xs-12 p  
 	{
 		padding: 0px 10px 0px 10px;
-		font-size: 150%
+		font-size: 110%
 	}
 
 #about p #p-button
@@ -259,6 +259,11 @@ h4{
 		color: #fff;
 		margin-top: 6px;
 		margin-bottom: 16px;
+	}
+
+#about .col-xs-12 button
+	{
+		width: 300px;
 	}
 
 #about button:hover 
