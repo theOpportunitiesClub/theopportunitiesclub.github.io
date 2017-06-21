@@ -226,7 +226,7 @@ h4{
 
 	}
 
-#about p
+#about .col-md-12 p
 	{
 		text-align: center;
 		padding: 0px 80px 0px 80px;
@@ -236,7 +236,7 @@ h4{
 #about .col-xs-12 p  
 	{
 		padding: 0px 10px 0px 10px;
-		font-size: 110%
+		font-size: 150%
 	}
 
 #about p #p-button
