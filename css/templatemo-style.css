@@ -315,6 +315,13 @@ h4{
 
 /* end projects */
 
+/* start faqs */
+#faqs 
+	{
+		background: #404040;
+	}
+/* end faqs */
+
 /* start contact */
 #contact
 	{
@@ -537,7 +544,7 @@ img {
 }
 .panel-default > .panel-heading {
   color: #fff;
-  background-color: #303030;
+  background-color: #404040;
   border-color: #fff;
 }
 .panel-heading [data-toggle="collapse"].collapsed:after {
