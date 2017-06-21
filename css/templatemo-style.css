@@ -46,7 +46,7 @@ h4{
 }
 
 #projects, #about, #classes,
-#faqs, #contact
+#people, #faqs, #contact
 	{
 		padding-top: 60px;
 		padding-bottom: 40px;
@@ -96,7 +96,7 @@ h4{
 }
 /* end slideshow */
 
-/* start nagivation */
+/* start navigation */
 .navbar-default
 	{
 		background: #2E5D6D;
@@ -210,6 +210,14 @@ h4{
 	}
 /* end classes */
 
+/* start people */
+#people
+	{
+		padding-bottom: 80px;
+		background: #404040;
+	}
+/* end people */
+
 /* start about */
 #about 
 	{
@@ -223,6 +231,12 @@ h4{
 		text-align: center;
 		padding: 0px 80px 0px 80px;
 		font-size: 150%;
+	}
+
+#about p .col-md-12 
+	{
+		padding: 0px 10px 0px 10px;
+		font-size: 110%
 	}
 
 #about p #p-button
@@ -318,7 +332,7 @@ h4{
 /* start faqs */
 #faqs 
 	{
-		background: #404040;
+		background: #303030;
 	}
 /* end faqs */
 
@@ -544,7 +558,7 @@ img {
 }
 .panel-default > .panel-heading {
   color: #fff;
-  background-color: #404040;
+  background-color: #303030;
   border-color: #fff;
 }
 .panel-heading [data-toggle="collapse"].collapsed:after {
