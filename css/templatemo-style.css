@@ -3,7 +3,7 @@ body
 	{
  		background: #303030;
  		color: #ffffff;
-		font-family: 'Roboto', 'Open Sans', sans-serif;
+		font-family: 'Noto Sans', 'Open Sans', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
