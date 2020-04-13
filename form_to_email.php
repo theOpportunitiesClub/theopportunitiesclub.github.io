@@ -24,12 +24,12 @@ if(IsInjected($visitor_email))
 }
 
 //Create email
-$email_from = 'info@theopclub.com';
+$email_from = 'theopclubsjsu@gmail.com';
 $email_subject = "General Inquiry from theopclub.com";
 $email_body = "$name ($visitor_email) says: \n\n";
 $email_body .= "$message";
 
-$to = "info@theopclub.com";
+$to = "theopclubsjsu@gmail.com";
 $headers = "From: $email_from \r\n";
 
 //Spammer check code
@@ -43,10 +43,10 @@ function IsInjected($str)
            '(%08+)',
            '(%09+)'
            );
-                
+
     $inject = join('|', $injections);
     $inject = "/$inject/i";
-     
+
     if(preg_match($inject,$str))
     {
       return true;

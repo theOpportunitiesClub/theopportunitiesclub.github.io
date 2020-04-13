@@ -1,17 +1,17 @@
 
 body
 	{
- 		background: #303030;
+ 		background: #404040;
  		color: #ffffff;
 		font-family: 'Noto Sans',  'Open Sans', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
-	
+
 a {
 	color: #47C6F8;
 }
-	
+
 a:hover {
 	color: #1FA033;
 }
@@ -25,22 +25,22 @@ h2
 		text-align: center;
 		font-size: 40px;
 		padding-bottom: 40px;
-	}	
+	}
 h2 span
 	{
 		color: #1FA033;
 		font-weight: bold;
 	}
 /* end h2 */
-h3 
+h3
 	{
 		text-align: center;
 		font-size:28px;
 		display: block;
-		
+
 	}
 h4{
-	
+
 		font-size:28px;
 		display: block;
 }
@@ -62,7 +62,7 @@ h4{
         overflow:hidden;
     }
 .home div.slide_caption
-    {   
+    {
     background:rgba(0, 0, 0, 0.0);
     max-width:600px;
     margin:120px auto auto auto;
@@ -120,18 +120,18 @@ h4{
 		line-height: 40px;
 	}
 
-.navbar-default .navbar-nav > li > a.current { 
-	color: #1FA033; 
+.navbar-default .navbar-nav > li > a.current {
+	color: #1FA033;
 }
 .templatemo-nav {
-	border-radius: 0;	
+	border-radius: 0;
 	width: 100%;
 	z-index: 1000;
 }
-.sticky {	
+.sticky {
 	position: fixed;
 	left: 0;
-	top: 0;	
+	top: 0;
 }
 /* end navigation */
 
@@ -219,10 +219,10 @@ h4{
 /* end people */
 
 /* start about */
-#about 
+#about
 	{
 		padding-bottom: 80px;
-		background-color: #303030;
+		background-color: #404040;
 
 	}
 
@@ -233,7 +233,7 @@ h4{
 		font-size: 150%;
 	}
 
-#about .col-xs-12 p  
+#about .col-xs-12 p
 	{
 		padding: 0px 10px 0px 10px;
 		font-size: 110%
@@ -266,7 +266,7 @@ h4{
 		width: 200px;
 	}
 
-#about button:hover 
+#about button:hover
 	{
 		background: transparent;
 	}
@@ -277,16 +277,16 @@ h4{
 #projects
 	{
 		padding-bottom: 80px;
-		background-color: #404040;
+		background-color: #303030;
 	}
 #projects .col-md-3
 	{
 		padding: 0px;
 	}
-	.projects-thumb, 
+	.projects-thumb,
 	.projects-overlay {
 		max-width: 450px;
-		
+
 	}
 #projects .projects-thumb
 	{
@@ -301,7 +301,7 @@ h4{
 		top: 0;
 		left: 0;
 		right: 0;
-		bottom: 0;	
+		bottom: 0;
 		width: 100%;
 		height: 100%;
 		opacity: .3;
@@ -335,7 +335,7 @@ h4{
 /* end projects */
 
 /* start faqs */
-#faqs 
+#faqs
 	{
 		background: #303030;
 	}
@@ -490,7 +490,7 @@ h4{
 	#home
 		{
 			min-height: 300px;
-			
+
 		}
 	#home h1
 		{
@@ -535,7 +535,7 @@ h4{
 	#home
 		{
 			min-height: 200px;
-			
+
 		}
 	#home h1
 		{
@@ -559,7 +559,7 @@ img {
     float: right;
     color: #1FA033;
     font-size: 20px;
-    line-height: 20px;   
+    line-height: 20px;
 }
 .panel-default > .panel-heading {
   color: #fff;
@@ -573,25 +573,25 @@ img {
 }
 .panel-body {
 	background-color:#454444;
-	
+
 }
 .modal-content {
 	background-color: #454444;
 }
 .btn {
-	
+
 }
-.banner { 
-	position: relative; 
-	overflow: auto; 
+.banner {
+	position: relative;
+	overflow: auto;
 }
-   				
-.banner li { 
-	list-style: none; 
+
+.banner li {
+	list-style: none;
 }
-        		
-.banner ul li { 
-	float: left; 
+
+.banner ul li {
+	float: left;
 }
 
 .logoFull {
