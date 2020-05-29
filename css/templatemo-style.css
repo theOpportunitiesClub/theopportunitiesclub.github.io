@@ -1,7 +1,7 @@
 
 body
 	{
- 		background: #404040;
+ 		background: #707070;
  		color: #ffffff;
 		font-family: 'Noto Sans',  'Open Sans', sans-serif;
 		font-weight: 300;
@@ -9,11 +9,15 @@ body
 	}
 
 a {
-	color: #47C6F8;
+	/*link colors - blue*/
+	/*color: #47C6F8;*/
+	color: rgb(100, 200, 255);
 }
 
 a:hover {
-	color: #1FA033;
+	/*color: #1FA033;*/
+	/*green*/
+	color: rgb(70, 235, 110);
 }
 p{
 	display: block;
@@ -28,7 +32,8 @@ h2
 	}
 h2 span
 	{
-		color: #1FA033;
+		/*contact "opclub"*/
+		color: rgb(70, 235, 110)/*#1FA033*/;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -49,7 +54,7 @@ h4{
 #people, #faqs, #contact
 	{
 		padding-top: 60px;
-		padding-bottom: 40px;
+		padding-bottom: 60px;
 	}
 
 /* start slideshow */
@@ -97,9 +102,9 @@ h4{
 /* end slideshow */
 
 /* start navigation */
-.navbar-default
+.navbar-default 
 	{
-		background: #2E5D6D;
+		background: rgb(100,200,255) /*#2E5D6D*/; /*navigation bar color*/
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
@@ -121,7 +126,7 @@ h4{
 	}
 
 .navbar-default .navbar-nav > li > a.current {
-	color: #1FA033;
+	color: rgb(70, 235, 110);
 }
 .templatemo-nav {
 	border-radius: 0;
@@ -150,7 +155,7 @@ h4{
 	}
 #home h1 span
 	{
-		color: #1FA033;
+		color: rgb(70, 235, 110);
 		font-weight: bold;
 	}
 #home .btn
@@ -181,7 +186,7 @@ h4{
 /* start classes */
 #classes .classes-wrapper
 	{
-		background: #404040;
+		background: #707070;
 		padding-bottom: 10px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -214,7 +219,7 @@ h4{
 #people
 	{
 		padding-bottom: 80px;
-		background: #404040;
+		background: #707070;
 	}
 /* end people */
 
@@ -222,7 +227,7 @@ h4{
 #about
 	{
 		padding-bottom: 80px;
-		background-color: #404040;
+		background-color: #707070;
 
 	}
 
@@ -277,7 +282,7 @@ h4{
 #projects
 	{
 		padding-bottom: 80px;
-		background-color: #303030;
+		background-color: #505050;
 	}
 #projects .col-md-3
 	{
@@ -337,19 +342,20 @@ h4{
 /* start faqs */
 #faqs
 	{
-		background: #303030;
+		background: #404040;
 	}
 /* end faqs */
 
 /* start contact */
 #contact
 	{
-		background: #202020;
+		background: #404040
+		;
 	}
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #1FA033;
+		border: 1px solid rgb(100, 200, 255) /*#1FA033*/;
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -366,7 +372,7 @@ h4{
 	}
 #contact input[type="submit"]
 	{
-		background: #1FA033;
+		background: rgb(100, 200, 255)/*#1FA033*/;
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -407,7 +413,7 @@ h4{
 /* start copyright */
 #copyright
 	{
-        background-color: #2E5D6D;
+        background-color: rgb(100, 200, 255)/*#2E5D6D*/;
 		padding: 20px;
 	}
 #copyright p
@@ -449,7 +455,7 @@ h4{
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: rgb(100, 200, 255);
 		border-color: transparent;
 	}
 /* end social icon */
@@ -557,7 +563,7 @@ img {
 	font-family: FontAwesome;
     content: "\f151"; /* "play" icon */ /* glyphicon code not working for some reason*/
     float: right;
-    color: #1FA033;
+    color: rgb(100, 200, 255) /*#1FA033*/;
     font-size: 20px;
     line-height: 20px;
 }
@@ -572,7 +578,7 @@ img {
     content: "\f150";
 }
 .panel-body {
-	background-color:#454444;
+	background-color: #606060;
 
 }
 .modal-content {
