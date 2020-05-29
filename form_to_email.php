@@ -5,7 +5,7 @@ if(!isset($_POST['submit']))
 }
 
 //Variables
-$name = $_POST['name'];
+$name = $_POST['fullname'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
@@ -24,7 +24,7 @@ if(IsInjected($visitor_email))
 }
 
 //Create email
-$email_from = 'theopclubsjsu@gmail.com';
+$email_from = "$visitor_email";
 $email_subject = "General Inquiry from theopclub.com";
 $email_body = "$name ($visitor_email) says: \n\n";
 $email_body .= "$message";
